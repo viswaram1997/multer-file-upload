@@ -19,7 +19,7 @@ class App extends Component {
 
 
 
-    await fetch('http://192.168.43.160:7000/fileupload', {
+    await fetch('https://multerupload.herokuapp.com:39495/fileupload', {
         method: "POST",
         headers: {
           'Accept': 'application/json'
