@@ -22,6 +22,9 @@ app.post('/fileupload',upload.single('file'),(req,res)=>{
     res.json({path});
 
 } )
+app.get('/',(req,res)=>{
+  console.log("viswa")
+})
 
 
 app.set('port', process.env.PORT || 7000);
