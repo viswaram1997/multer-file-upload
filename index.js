@@ -28,5 +28,5 @@ app.set('port', process.env.PORT || 7000);
 app.set('host', process.env.HOST || '192.168.43.160');
 
 app.listen(app.get('port'),  function(){
-  console.log("Express server listening on port " + app.get('port'));
+  console.log("Express server listening on port " + app.get('port')+ app.get('host'));
 });
